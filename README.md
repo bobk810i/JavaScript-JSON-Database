@@ -1,6 +1,6 @@
-### JavaScript JSON Database
-## Easy and simple to use JavaScript / NodeJS database module.
-#Set of functions for CRUD operations.
+## JavaScript JSON Database
+Easy and simple to use JavaScript / NodeJS database module.
+### Set of functions for CRUD operations.
 
 Download `JS_JSON_Database` file from Github and place it inside your project.
 Import the module:
@@ -9,11 +9,11 @@ Import the module:
 const db = require(<project path>/JS_JSON_Database);
 ```
 
-#Database structure
+### Database structure
 
-#Callback structure
+### Callback structure
 
-#Functions
+### Functions
 
 **DB_createDb( database_name ,  subbase_name , callback() )**
 - `database_name` - name of your database
