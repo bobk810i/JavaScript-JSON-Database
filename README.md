@@ -38,20 +38,24 @@ const db = require(<project path>/JS_JSON_Database);
 ### Functions:
 
 **DB_createDb( database_name ,  subbase_name , callback() )**
+
 Creating new database file.
 - `database_name` - name of the database
 - `subbase_name` - name of the first, default subbase
 
 **DB_deleteDb( database_name , callback() )**
+
 Deleting database file.
 - `database_name` - name of the database
 
 **DB_createSub( database_name ,  subbase_name , callback() )**
+
 Creating subbase inside the existing database file.
 - `database_name` - name of the database
 - `subbase_name` - name of the new subbase
 
 **DB_deleteSub( database_name ,  subbase_name , callback() )**
+
 Deleting subbase from the existing database file.
 - `database_name` - name of the database
 - `subbase_name` - name of the subbase
@@ -61,24 +65,28 @@ Getting whole database.
 - `database_name` - name of the database
 
 **DB_getElement( database_name ,  subbase_name , property , callback() )**
+
 Getting the specyfic element from the database by its property.
 - `database_name` - name of the database
 - `subbase_name` - name of the subbase
 - `property` - ex. {name: <name>}
   
 **DB_getElementById( database_name ,  subbase_name , id , callback() )**
+
 Getting the specyfic element from the database by its ID.
 - `database_name` - name of the database
 - `subbase_name` - name of the subbase
 - `id` - id of the exsisting element
   
 **DB_addElement( database_name ,  subbase_name , element , callback() )**
+
 Adding the element to the database.
 - `database_name` - name of the database
 - `subbase_name` - name of the subbase
 - `element` - new database element(ex. {name: <name>, mail: <mail>})
   
 **DB_editElement( database_name ,  subbase_name , id, properties , callback() )**
+
 Editing the existing element inside the database.
 - `database_name` - name of the database
 - `subbase_name` - name of the subbase
@@ -86,6 +94,7 @@ Editing the existing element inside the database.
 - `properties` - properties to edit (ex. {mail: <mail>})
   
 **DB_deleteElement( database_name ,  subbase_name , id , callback() )**
+
 Deleting the existing element inside the database.
 - `database_name` - name of the database
 - `subbase_name` - name of the subbase
