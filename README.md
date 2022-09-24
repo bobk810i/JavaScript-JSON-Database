@@ -44,8 +44,7 @@ Creating new database file.
 - `subbase_name` - name of the first, default subbase
 
 **DB_deleteDb( database_name , callback() )**
-
-Deleting database file.
+  Deleting database file.
 - `database_name` - name of the database
 
 **DB_createSub( database_name ,  subbase_name , callback() )**
