@@ -71,3 +71,10 @@ Getting the specyfic element from the database by its property.
 - `subbase_name` - name of the subbase
 - `property` - ex. {name: <name>}
 - `callback` - status, data
+  
+**DB_getElementById( database_name ,  subbase_name , property , callback() )**
+Getting the specyfic element from the database by its property.
+- `database_name` - name of the database
+- `subbase_name` - name of the subbase
+- `property` - ex. {name: <name>}
+- `callback` - status, data
